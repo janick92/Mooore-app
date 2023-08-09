@@ -1,0 +1,236 @@
+{
+  "nl": [
+    {
+      "brand": "Google",
+      "type": "SMARTPHONE",
+      "description": "Lorum ipsum",
+      "stock": 5,
+      "location": "Amsterdam"
+    },
+    {
+      "brand": "LG",
+      "type": "PROJECTOR",
+      "description": "Lorum ipsum",
+      "stock": 2,
+      "location": "Amsterdam"
+    },
+    {
+      "brand": "Apple",
+      "type": "PROJECTOR",
+      "description": "Lorum ipsum",
+      "stock": 0,
+      "location": "Leiden"
+    },
+    {
+      "brand": "Samsung",
+      "type": "MONITOR",
+      "description": "Lorum ipsum",
+      "stock": 7,
+      "location": null
+    },
+    {
+      "brand": "Samsung",
+      "type": "TV",
+      "description": "Lorum ipsum",
+      "stock": 3,
+      "location": null
+    },
+    {
+      "brand": "Samsung",
+      "type": "SMARTPHONE",
+      "description": "Lorum ipsum",
+      "stock": 4,
+      "location": null
+    }
+  ],
+  "nedereland": [
+    {
+      "brand": "Samsung",
+      "type": "SMARTPHONE",
+      "description": "Lorum ipsum",
+      "stock": 2,
+      "location": null
+    },
+    {
+      "brand": "Samsung",
+      "type": "SMARTPHONE",
+      "description": "Lorum ipsum",
+      "stock": 0,
+      "location": null
+    },
+    {
+      "brand": "Samsung",
+      "type": "TV",
+      "description": "Lorum ipsum",
+      "stock": 0,
+      "location": "Far far away"
+    },
+    {
+      "brand": "Samsung",
+      "type": "SMARTPHONE",
+      "description": "Lorum ipsum",
+      "stock": 3,
+      "location": "Langsluf"
+    },
+    {
+      "brand": "Samsung",
+      "type": "SMARTPHONE",
+      "description": "Lorum ipsum",
+      "stock": 2,
+      "location": null
+    },
+    {
+      "brand": "LG",
+      "type": "SMARTPHONE",
+      "description": "Lorum ipsum",
+      "stock": 3,
+      "location": null
+    },
+    {
+      "brand": "Samsung",
+      "type": "SMARTPHONE",
+      "description": "Lorum ipsum",
+      "stock": 3,
+      "location": "Langsluf"
+    },
+    {
+      "brand": "Samsung",
+      "type": "TV",
+      "description": "Lorum ipsum",
+      "stock": 6,
+      "location": "Langsluf"
+    }
+  ],
+  "en": [
+    {
+      "brand": "Samsung",
+      "type": "MONITOR",
+      "description": "Lorum ipsum",
+      "stock": 7,
+      "location": null
+    },
+    {
+      "brand": "Apple",
+      "type": "MONITOR",
+      "description": "Lorum ipsum",
+      "stock": 0,
+      "location": "New York"
+    },
+    {
+      "brand": "Google",
+      "type": "TV",
+      "description": "Lorum ipsum",
+      "stock": -1,
+      "location": null
+    },
+    {
+      "brand": "Google",
+      "type": "MONITOR",
+      "description": "Lorum ipsum",
+      "stock": 8,
+      "location": null
+    },
+    {
+      "brand": "Google",
+      "type": "SMARTPHONE",
+      "description": "Lorum ipsum",
+      "stock": 4,
+      "location": "Springfield"
+    },
+    {
+      "brand": "Apple",
+      "type": "SMARTPHONE",
+      "description": "Lorum ipsum",
+      "stock": 0,
+      "location": null
+    },
+    {
+      "brand": "Samsung",
+      "type": "SMARTPHONE",
+      "description": "Lorum ipsum",
+      "stock": 2,
+      "location": "Chicago"
+    }
+  ],
+  "duitsland": [
+    {
+      "brand": "Samsung",
+      "type": "TV",
+      "description": "Lorum ipsum",
+      "stock": 1,
+      "location": "Berlin"
+    },
+    {
+      "brand": "Apple",
+      "type": "TV",
+      "description": "Lorum ipsum",
+      "stock": 1,
+      "location": "Koln"
+    },
+    {
+      "brand": "Apple",
+      "type": "PROJECTOR",
+      "description": "Lorum ipsum",
+      "stock": 7,
+      "location": "Frankfurt"
+    },
+    {
+      "brand": "LG",
+      "type": "PROJECTOR",
+      "description": "Lorum ipsum",
+      "stock": 2,
+      "location": null
+    },
+    {
+      "brand": "Google",
+      "type": "PROJECTOR",
+      "description": "Lorum ipsum",
+      "stock": 1,
+      "location": null
+    },
+    {
+      "brand": "LG",
+      "type": "MONITOR",
+      "description": "Lorum ipsum",
+      "stock": 9,
+      "location": "Berlin"
+    },
+    {
+      "brand": "Apple",
+      "type": "MONITOR",
+      "description": "Lorum ipsum",
+      "stock": 6,
+      "location": "Koln"
+    },
+    {
+      "brand": "Samsung",
+      "type": "SMARTPHONE",
+      "description": "Lorum ipsum",
+      "stock": 0,
+      "location": "Koln"
+    }
+  ],
+  "unknown": [
+    {
+      "brand": "Google",
+      "type": "MONITOR",
+      "description": "Lorum ipsum",
+      "stock": 3,
+      "location": null
+    },
+    {
+      "brand": "LG",
+      "type": "MONITOR",
+      "description": "Lorum ipsum",
+      "stock": 2,
+      "location": null
+    },
+    {
+      "brand": "Apple",
+      "type": "MONITOR",
+      "description": "Lorum ipsum",
+      "stock": 1,
+      "location": null
+    }
+  ]
+}
