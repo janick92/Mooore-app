@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('mooore');
-});
+Route::resource('/', HomeController::class)->only(['index', 'edit', 'update']);
+Route::get('/{id}/edit', [HomeController::class, 'edit'])->name('edit');
+Route::get('/update/{id}', [HomeController::class, 'update'])->name('update');
