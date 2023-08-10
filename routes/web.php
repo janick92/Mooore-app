@@ -13,6 +13,11 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::resource('/', HomeController::class)->only(['index', 'edit', 'update']);
+// Definieer de hoofdroute voor het weergeven van items
+Route::resource('/', HomeController::class)->only(['index']);
+
+// Aangepaste route voor het tonen van het bewerkingsformulier
 Route::get('/{id}/edit', [HomeController::class, 'edit'])->name('edit');
+
+// Aangepaste route voor het bijwerken van voorraad
 Route::get('/update/{id}', [HomeController::class, 'update'])->name('update');
