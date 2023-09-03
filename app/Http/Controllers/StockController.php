@@ -3,9 +3,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use App\Models\products;
+use App\Models\stock;
 
-class HomeController extends Controller
+class ProductController extends Controller
 {
     public function index()
     {
@@ -15,13 +15,13 @@ class HomeController extends Controller
 
     public function edit($id)
     {
-        $item = products::find($id);
+        $item = stock::find($id);
         return view('edit', ['item' => $item]);
     }
 
     public function update(Request $request, $id)
     {
-        $item = products::find($id);
+        $item = stock::find($id);
         $item->stock = $request->input('stock');
         $item->save();
 

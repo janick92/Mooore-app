@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\productcontroller;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,10 +14,10 @@ use App\Http\Controllers\HomeController;
 */
 
 // Definieer de hoofdroute voor het weergeven van items
-Route::resource('/', HomeController::class)->only(['index']);
+Route::resource('/', productcontroller::class)->only(['index']);
 
 // Aangepaste route voor het tonen van het bewerkingsformulier
-Route::get('/{id}/edit', [HomeController::class, 'edit'])->name('edit');
+Route::get('/{id}/edit', [productcontroller::class, 'edit'])->name('edit');
 
 // Aangepaste route voor het bijwerken van voorraad
-Route::get('/update/{id}', [HomeController::class, 'update'])->name('update');
+Route::get('/update/{id}', [productcontroller::class, 'update'])->name('update');
