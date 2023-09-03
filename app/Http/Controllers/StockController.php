@@ -5,7 +5,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Models\stock;
 
-class ProductController extends Controller
+class StockController extends Controller
 {
     public function index()
     {
