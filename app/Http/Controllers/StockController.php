@@ -10,7 +10,7 @@ class StockController extends Controller
     public function index()
     {
         $items = DB::table('stock')->get();
-        return view('mooore', ['items' => $items]);
+        return view('country', ['items' => $items]);
     }
 
     public function edit($id)
