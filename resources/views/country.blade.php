@@ -19,13 +19,14 @@
                 @foreach($groupedItems as $country => $countryItems)
                     <tr>
                         <!-- Toon het land voor deze groep items -->
-                        <th class="p-6 text-3xl" rowspan="1">{{ $country }}</th>
+                        <th class="text-3xl" rowspan="1">{{ $country }}</th>
                     </tr>
                     <!-- Tabelkop voor de items -->
                     <tr class="bg-tertiary">
                         <th class="border p-4">Brand</th>
                         <th>Type</th>
                         <th>Description</th>
+                        <th>Country</th>
                         <th>Stock</th>
                         <th>Location</th>
                         <th></th>
