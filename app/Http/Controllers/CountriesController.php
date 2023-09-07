@@ -11,7 +11,7 @@ class CountriesController extends Controller
      */
     public function index()
     {
-        $response = Http::get('https://restcountries.com/v3/all');
+        $response = Http::withOptions(['verify' => false])->get('https://restcountries.com/v3.1/all?fields=name,cca2');
         $countries = $response->json();
         return view('countries.index', compact('countries'));
     }
