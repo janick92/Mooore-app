@@ -9,7 +9,10 @@ class StockController extends Controller
 {
     public function index()
     {
-        $items = DB::table('stock')->get();
+        $country = 'f';
+        $items = DB::table('stock')
+        ->where('country', $country)
+        ->get();
         return view('country', ['items' => $items]);
     }
 

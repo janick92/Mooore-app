@@ -15,4 +15,9 @@ class CountriesController extends Controller
         $countries = $response->json();
         return view('countries.index', compact('countries'));
     }
+
+    public function show($country)
+    {
+        return view('countries.show', compact('country'));
+    }
 }
