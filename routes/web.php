@@ -25,6 +25,4 @@ Route::get('/country/{id}/edit', [stockcontroller::class, 'edit'])->name('edit')
 Route::get('/country/update/{id}', [stockcontroller::class, 'update'])->name('update');
 
 // Aangepaste route voor het zien van het land dat je geselecteerd hebt
-// Route::resource('/country', stockcontroller::class)->only(['index']);
-
-Route::get('/country/{country}', 'CountriesController@show')->name('country.show');
+Route::get('/country/{country}', [CountriesController::class, 'show'])->name('country.show');
